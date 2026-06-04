@@ -29,7 +29,7 @@ Contributions welcome. See [Contributing](#contributing).
 
 ## APIs and Data Providers
 
-- [FlashAlpha](https://flashalpha.com) - Options analytics API providing a live options screener (filter/rank by GEX, VRP, IV, greeks, harvest scores, and custom formulas), GEX (gamma exposure), DEX (delta exposure), VEX (vanna exposure), CHEX (charm exposure), full greeks, open interest, 0DTE analytics, and AI-powered narrative analysis across equities and indices. Offers REST endpoints and SDKs in Python, JavaScript, .NET, Java, Go, plus an MCP server.
+- [FlashAlpha](https://flashalpha.com/for-quant-teams?utm_source=github&utm_medium=readme&utm_campaign=repo-awesome-list) - Computed dealer-positioning analytics API: live options screener (filter/rank by GEX, VRP, IV, greeks, harvest scores, and custom formulas), GEX (gamma exposure), DEX (delta exposure), VEX (vanna exposure), CHEX (charm exposure), full greeks, open interest, 0DTE analytics, and AI-powered narrative analysis across equities and indices. The only public source of **aggregate vanna and charm exposure**, and **point-in-time replay since 2018**. REST endpoints and SDKs in Python, JavaScript, .NET, Java, Go, plus an MCP server.
 - [CBOE DataShop](https://datashop.cboe.com) - Historical and real-time options data directly from the exchange, including VIX data, settlement prices, and implied volatility indexes.
 - [OptionMetrics](https://optionmetrics.com) - Academic and institutional-grade historical options data (IvyDB), widely used in finance research for implied volatility surfaces and standardized greeks.
 - [ORATS](https://orats.com) - Options data API with earnings forecasts, volatility surface data, backtesting tools, and historical greeks.
@@ -115,7 +115,7 @@ Gamma Exposure (GEX) measures the aggregate gamma held by market makers on a giv
 
 ### Tools
 
-- [FlashAlpha](https://flashalpha.com) - Production API providing GEX, DEX (delta exposure), VEX (vanna exposure), and CHEX (charm exposure) by strike, expiration, and aggregate. Includes narrative summaries.
+- [FlashAlpha](https://flashalpha.com/for-quant-teams?utm_source=github&utm_medium=readme&utm_campaign=repo-awesome-list) - Production API providing GEX, DEX (delta exposure), VEX (vanna exposure), and CHEX (charm exposure) by strike, expiration, and aggregate, plus narrative summaries. The only public source of **aggregate vanna and charm exposure** and **point-in-time replay since 2018**.
 - [flashalpha-examples](https://github.com/FlashAlpha-lab/flashalpha-examples) - Self-contained Python scripts and notebooks demonstrating GEX dashboards, IV rank scanning, 3D volatility surface visualization, dealer positioning analysis, and Kelly Criterion position sizing using the FlashAlpha API.
 - [OpenBB](https://openbb.co) - Open-source investment research platform with options flow and GEX visualization capabilities via community extensions.
 
@@ -132,7 +132,7 @@ Dealer positioning analysis focuses on inferring how market makers' hedging obli
 
 ### Tools and Data
 
-- [FlashAlpha](https://flashalpha.com) - Provides GEX, DEX, VEX, and CHEX profiles by strike and expiration for equities and indices, along with aggregate positioning summaries and AI narrative analysis. REST API and Python client.
+- [FlashAlpha](https://flashalpha.com/for-quant-teams?utm_source=github&utm_medium=readme&utm_campaign=repo-awesome-list) - Provides GEX, DEX, VEX, and CHEX profiles by strike and expiration for equities and indices, along with aggregate positioning summaries and AI narrative analysis. The only public source of **aggregate vanna and charm exposure** and **point-in-time replay since 2018**. REST API and SDKs in five languages.
 - [gex-explained](https://github.com/FlashAlpha-lab/gex-explained) - Walkthrough of dealer hedging regimes, the gamma flip level, and the mechanics behind positive and negative gamma environments.
 - [SpotGamma](https://spotgamma.com) - Commercial platform tracking dealer gamma, charm, vanna, and options flow with a focus on SPX/SPY and major indices.
 
